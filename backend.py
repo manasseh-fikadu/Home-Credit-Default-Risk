@@ -16,8 +16,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-model = joblib.load('./models/catboost_reduced.joblib')
-test_set = joblib.load('./data/x_test.joblib')
+model = joblib.load('./catboost_reduced.joblib')
+test_set = joblib.load('./x_test.joblib')
 
 @app.get('/')
 def get_home():
