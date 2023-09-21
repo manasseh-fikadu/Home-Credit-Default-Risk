@@ -5,3 +5,7 @@ catboost
 joblib
 scikit-learn
 pandas
+gradio
+requests
+shap
+matplotlib
